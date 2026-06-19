@@ -1,0 +1,121 @@
+2026-06-18T08:46:55.381Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-18T08:46:55.383Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api",
+  "event": "precheckCompleted",
+  "status": "succeeded",
+  "phase": "precheck",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "17",
+        "targetVersion": "21"
+      }
+    ]
+  },
+  "message": "Detected Maven project targeting Java 17; upgrading runtime to latest LTS Java 21."
+}}).
+2026-06-18T08:46:55.384Z [INFO] [Tool.invoke] do invoke.
+2026-06-18T08:46:55.387Z [INFO] Project c:\Users\KIIT0001\Desktop\WEB DEV\The Developer Arena\blog-api is a maven project, try to get java version from pom.xml
+2026-06-18T08:46:55.390Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260618084655,\nSession Dir: c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api\\.github\\modernize\\java-upgrade\\20260618084655"
+}}).
+2026-06-18T08:46:55.392Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-18T08:46:55.396Z [INFO] Project java version: 17
+2026-06-18T08:46:55.398Z [INFO] Maven project detected.
+2026-06-18T08:46:55.399Z [INFO] Build tool type: mvnw
+2026-06-18T08:46:56.288Z [INFO] JDK: undefined
+2026-06-18T08:46:56.293Z [ERROR] Failed to detect or resolve JDK for the project at c:\Users\KIIT0001\Desktop\WEB DEV\The Developer Arena\blog-api.
+2026-06-18T08:46:56.295Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at c:\Users\KIIT0001\Desktop\WEB DEV\The Developer Arena\blog-api. Please ensure JDK 17 is installed and properly configured on the machine.
+2026-06-18T08:46:56.300Z [INFO] Maven project detected.
+2026-06-18T08:46:56.302Z [INFO] Project c:\Users\KIIT0001\Desktop\WEB DEV\The Developer Arena\blog-api is a maven project, try to get java version from pom.xml
+2026-06-18T08:47:13.320Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-18T08:47:13.322Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260618084655",
+  "projectPath": "c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-06-18T08:47:13.325Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-18T08:47:13.327Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-18T08:47:13.330Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-18T08:47:13.387Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-18T08:47:13.389Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260618084655",
+  "projectPath": "c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-06-18T08:47:13.391Z [INFO] [Tool.invoke] do invoke.
+2026-06-18T08:47:13.394Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260618084655,\nSession Dir: c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api\\.github\\modernize\\java-upgrade\\20260618084655"
+}}).
+2026-06-18T08:47:13.397Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-18T08:47:17.316Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-06-18T08:47:17.318Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260618084655"
+}}).
+2026-06-18T08:47:17.320Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-18T08:47:17.322Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-06-18T08:47:17.324Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-06-18T08:47:17.392Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-06-18T08:47:17.394Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260618084655"
+}}).
+2026-06-18T08:47:17.395Z [INFO] [Tool.invoke] do invoke.
+2026-06-18T08:47:17.430Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 20.0.1\n   📁 Path: C:\\Program Files\\Java\\jdk-20\\bin\n   🏷️ Source: others\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-06-18T08:47:17.431Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-06-18T08:47:18.303Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-06-18T08:47:18.307Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260618084655",
+  "includeVersion": true
+}}).
+2026-06-18T08:47:18.311Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-18T08:47:18.319Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-06-18T08:47:18.322Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-06-18T08:47:19.712Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-06-18T08:47:19.713Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260618084655",
+  "includeVersion": true
+}}).
+2026-06-18T08:47:19.717Z [INFO] [Tool.invoke] do invoke.
+2026-06-18T08:47:19.726Z [INFO] [Tool.invoke]({result: {
+  "message": "No Maven installations found."
+}}).
+2026-06-18T08:47:19.727Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-06-18T08:48:52.020Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-18T08:48:52.022Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260618084655",
+  "projectPath": "c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-06-18T08:48:52.024Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-18T08:48:52.026Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-18T08:48:52.027Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-18T08:48:52.053Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-18T08:48:52.054Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260618084655",
+  "projectPath": "c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-06-18T08:48:52.056Z [INFO] [Tool.invoke] do invoke.
+2026-06-18T08:48:52.059Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260618084655,\nSession Dir: c:\\Users\\KIIT0001\\Desktop\\WEB DEV\\The Developer Arena\\blog-api\\.github\\modernize\\java-upgrade\\20260618084655"
+}}).
+2026-06-18T08:48:52.060Z [INFO] ----------------------invoked appmod-report-event----------------------
